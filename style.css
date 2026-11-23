@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef7f2;
+    color: #1c2b24;
+    line-height: 1.5;
+}
+
+header {
+    background: #1f3d33;
+    color: #eafff4;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #3ecf8e;
+}
+
+main {
+    width: 90%;
+    max-width: 820px;
+    margin: 28px auto;
+}
+
+.card {
+    background: #ffffff;
+    padding: 22px 26px;
+    margin-bottom: 18px;
+    border-left: 6px solid #3ecf8e;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    color: #1f7a54;
+    margin-top: 0;
+}
+
+button {
+    background: #1f7a54;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #145a3d;
+}
+
+select {
+    padding: 8px;
+    margin-left: 8px;
+    border: 1px solid #1f7a54;
+    border-radius: 6px;
+}
+
+#message, #modelInfo {
+    margin-top: 14px;
+    font-weight: bold;
+    color: #145a3d;
+}
+
+a {
+    color: #1f7a54;
+}
+
+footer {
+    text-align: center;
+    padding: 18px;
+    background: #1f3d33;
+    color: #eafff4;
+}
