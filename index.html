@@ -40,6 +40,21 @@
             <li>Використання віддаленої обчислювальної інфраструктури</li>
         </ol>
     </section>
+    <section class="card">
+        <h2>Хмарний сервіс: Supabase</h2>
+        <p>Supabase — хмарна платформа з відкритим кодом, яка дає вебзастосунку готовий бекенд: базу даних PostgreSQL, вхід користувачів і файлове сховище без налаштування власного сервера.</p>
+        <p>Моделі хмарних послуг: PaaS і BaaS (бекенд як сервіс), частково DBaaS — керована хмарна база даних.</p>
+        <p>Приклади функцій: Database (PostgreSQL), Auth, Storage, Edge Functions, Realtime.</p>
+        <p>Офіційний сайт: <a href="https://supabase.com/">supabase.com</a></p>
+        <label for="model">Що таке модель хмарних послуг?</label>
+        <select id="model" onchange="showModel()">
+            <option value="">— оберіть —</option>
+            <option value="iaas">IaaS</option>
+            <option value="paas">PaaS</option>
+            <option value="saas">SaaS</option>
+        </select>
+        <p id="modelInfo"></p>
+    </section>
 </main>
 <footer>
     <p>Cloud Computing © 2026</p>
